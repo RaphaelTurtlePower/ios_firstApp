@@ -25,8 +25,10 @@
   //  john.age  = 50;
   //  int age = [john age];
   //  int age = john.age;
-    
-    
+   
+    NSMutableString *name = [[NSMutableString alloc] initWithString:@"John"];
+    john.name = [name copy];
+    [name appendString:@" Fox"];
 }
 
 - (void)didReceiveMemoryWarning {
