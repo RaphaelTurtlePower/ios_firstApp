@@ -14,6 +14,7 @@
 		049D1B4119C7516F00AF51AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049D1B4019C7516F00AF51AB /* Images.xcassets */; };
 		049D1B4419C7516F00AF51AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049D1B4219C7516F00AF51AB /* LaunchScreen.xib */; };
 		049D1B5019C7516F00AF51AB /* FirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D1B4F19C7516F00AF51AB /* FirstAppTests.m */; };
+		049D1B5B19C75C6900AF51AB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D1B5A19C75C6900AF51AB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		049D1B4919C7516F00AF51AB /* FirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049D1B4E19C7516F00AF51AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049D1B4F19C7516F00AF51AB /* FirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstAppTests.m; sourceTree = "<group>"; };
+		049D1B5919C75C6900AF51AB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		049D1B5A19C75C6900AF51AB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		049D1B3219C7516F00AF51AB /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				049D1B5919C75C6900AF51AB /* Person.h */,
+				049D1B5A19C75C6900AF51AB /* Person.m */,
 				049D1B3719C7516F00AF51AB /* AppDelegate.h */,
 				049D1B3819C7516F00AF51AB /* AppDelegate.m */,
 				049D1B3A19C7516F00AF51AB /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				049D1B3C19C7516F00AF51AB /* ViewController.m in Sources */,
 				049D1B3919C7516F00AF51AB /* AppDelegate.m in Sources */,
+				049D1B5B19C75C6900AF51AB /* Person.m in Sources */,
 				049D1B3619C7516F00AF51AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

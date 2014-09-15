@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    Person *john = [[Person alloc] init];
+    [john setName:@"Mike"];
+   // john.name = @"Mike";
+    [john setAge:50];
+  //  john.age  = 50;
+  //  int age = [john age];
+  //  int age = john.age;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
